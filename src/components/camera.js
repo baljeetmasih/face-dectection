@@ -67,7 +67,7 @@ function Camera() {
   }
 
   const existingUserList = async () => {
-    const labels = ['Baljeet Masih','Pooran Das','Sunil','Sunny Kumar','Surinder Kumar','Simran'] // for WebCam
+    const labels = ['Baljeet Masih','Pooran Das','Sunil','Sunny Kumar','Surinder Kumar'] // for WebCam
 
     return Promise.all(
       labels.map(async (label) => {
